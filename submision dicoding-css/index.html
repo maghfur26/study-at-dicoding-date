@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <!-- poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <!-- bebas nue font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">top hotel</div>
+        <ul class="nav-ul">
+          <li class="list"><a href="#profil">Profil</a></li>
+          <li><a href="">Daftar hotel</a></li>
+          <li><a href="">Contact us</a></li>
+          <li><a href="">About me</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="first-line"></span>
+            <span class="second-line"></span>
+            <span class="third-line"></span>
+            <div class="hamburger-close">
+              <span class="first-closeLine"></span>
+              <span class="second-closeLine"></span>
+            </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+    
+    <!-- main start -->
+    <main>
+      <!-- hero start -->
+      <div class="content-hero">
+        <div class="container">
+          <aside class="image">
+            <img src="image/hero.png" alt="presentasi.img" />
+          </aside>
+          <article class="main-article">
+            <h1>Top Hotel</h1>
+            <p>Top hotel murupakan platform untuk mencari hotel-hotel <span>berkualitas</span> berdasarkan keinginan <span>user</span></p>
+          </article>
+        </div>
+        <div class="svg-wave">
+          <svg width="100%" height="100%" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" overflow="auto" shape-rendering="auto" fill="#ffffff">
+            <defs>
+              <path id="wavepath" d="M 0 2000 0 500 Q 74 438 148 500 t 148 0 148 0 148 0 148 0 148 0 148 0 148 0 148 0  v1000 z" />
+              <path id="motionpath" d="M -296 0 0 0" />
+            </defs>
+            <g>
+              <use xlink:href="#wavepath" y="447" fill="#0cebeb">
+                <animateMotion dur="5s" repeatCount="indefinite">
+                  <mpath xlink:href="#motionpath" />
+                </animateMotion>
+              </use>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <!-- hero end -->
+      
+      <!-- profile start -->
+      <div id="profil">
+        <div class="container-profil">
+          <img src="image/profil.svg" alt="">
+          <aside>
+            <h2>Profil</h2>
+            <p>Top hotel adalah salah satu platform pencarian hotel terbaik,dimana sudah ada sejak 2018 hingga sekarang</p>
+          </aside>
+        </div>
+      </div>
+      <!-- profil end -->
+
+      <!-- daftar hotel start -->
+      <div class="container-card">
+        <h2 id="daftar-hotel" style="text-align: center;">Top Hotel</h2>
+        <picture class="card">
+          <ul>
+            <li>
+              <img src="image/hotel1.jpg" alt="hotel.img">
+            </li>
+            <li>
+              <img src="image/hotel2.jpg" alt="hotel.img">
+            </li>
+            <li>
+              <img src="image/hotel3.jpg" alt="hotel.img">
+            </li>
+          </ul>
+        </picture>
+      </div>
+      <!-- daftar hotel end -->
+
+      <!-- contact us start -->
+      <div class="container-aboutMe">
+        <article>
+          <h2>About Me</h2>
+          <img src="image/me.png" alt="">
+          <strong>|| Full stack ||</strong>
+          <ul>
+            <li><h4>Nama: </h4><p>Maghfur Hasani</p></li>
+            <li><h4>Asal: </h4><p>Pemalang</p></li>
+            <li><h4>TTL: </h4><p>26 November 1999</p></li>
+            <li><h4>Sosmed: </h4>
+              <ul class="sosmed">
+                <li><img src="image/instagram.svg" alt=""></li>
+                <li><img src="image/github.svg" alt=""></li>
+                <li><img src="image/whatsapp.svg" alt=""></li>
+              </ul>
+            </li>
+            <li><q>Bercita-cita menjadi seorang full stack development</q></li>
+          </ul>
+        </article>
+      </div>
+      <!-- contact us end -->
+    </main>
+    <!-- main end -->
+
+    <footer>
+      <div class="container-footer">
+        <img src="image/github.svg" alt="">
+        <img src="image/instagram.svg" alt="">
+        <img src="image/whatsapp.svg" alt="">
+        <p>&copy; Created 2024 maghfur hasani | thank for  time & have a nice day</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
